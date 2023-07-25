@@ -1,6 +1,8 @@
 // Program to demonstrate on Arithmetic Operators
 package org.tnsif.operaters;
-import java.utit.Scanner;
+
+import java.util.Scanner;
+
 public class ArithmeticOperaterDemo {
 
 	public static void main(String[] args) {
