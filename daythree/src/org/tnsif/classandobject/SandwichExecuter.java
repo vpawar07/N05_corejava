@@ -2,6 +2,8 @@
 //Program to demonstrate on class and objects
 package org.tnsif.classandobject;
 
+import java.util.Scanner;
+
 public class SandwichExecuter {
 
 	public static void main(String[] args) {
@@ -11,6 +13,7 @@ public class SandwichExecuter {
 		
 		s.breadType="Brown Bread";
 		s.noOfSlice=4;
+		
 		
 		//method call
 		s.display();
