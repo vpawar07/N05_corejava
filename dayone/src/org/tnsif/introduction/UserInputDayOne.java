@@ -19,20 +19,20 @@ public class UserInputDayOne {
 		System.out.println("Enter the value of floatnum");
 		float num1=s.nextFloat();
 		System.out.println("Enter the value of floatnum is: "+num1);
-		
-		
-		
-		System.out.println("Enter the value of char")
-		char c = s.next().charAt(0);
-		System.out.println("Character is: "+c);
 		*/
 		
 		
+		System.out.println("Enter the value of char");
+		char c = s.next().charAt(0);
+		System.out.println("Character is: "+c);
+		
+		
+		/*
 		System.out.println("Enter the value of string");
-		String str1= s.nextLine();
-		//String str1= s.next();
+		//String str1= s.nextLine();
+		String str1= s.next();
 		System.out.println("String is: "+str1);
-				
+			*/	
 
 	}
 

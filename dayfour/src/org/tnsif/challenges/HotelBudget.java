@@ -18,15 +18,15 @@ import java.util.Scanner;
 
 public class HotelBudget {
 	
-	static double tariff(int month, int day, int rent) {
-		if(month == 4 || month == 5 || month == 6 || month == 11 && month == 12) {
-			rent += (int) (rent*0.12);
-			return rent*day;
-		}
-		else {
-			return day*rent;
-		}
-	}
+//	static double tariff(int month, int day, int rent) {
+//		if(month == 4 || month == 5 || month == 6 || month == 11 || month == 12) {
+//			rent += (int) (rent*0.12);
+//			return rent*day;
+//		}
+//		else {
+//			return day*rent;
+//		}
+//	}
 	
 	
 	public static void main(String[] args) {
@@ -38,8 +38,29 @@ public class HotelBudget {
 		int day = s.nextInt();
 		System.out.println("The rent of hotel : ");
 		int rent = s.nextInt();
-		System.out.println("The hotel budget is : "+tariff(month,day,rent));
+		//System.out.println("The hotel budget is : "+tariff(month,day,rent));
 		
+		switch(month){
+		case 1:
+		case 2:
+		case 3:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+			System.out.println(rent*day);
+			break;
+		case 4:
+		case 5:
+		case 6:
+		case 11:
+		case 12:
+			System.out.println((rent+(rent*0.12))*day);
+			break;
+		default:
+			System.out.println("Invalid month No");
+		
+		}
 		
 		
 
