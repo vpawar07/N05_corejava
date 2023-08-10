@@ -4,7 +4,7 @@ public class AbstractClassExecuter {
 
 	public static void main(String[] args) {
 		//we can't create an object for an abstract class
-		//Operator o new Operator();
+		//Operator o =new Operator();
 		Addition a= new Addition();
 		
 		a.operation();
